@@ -8,4 +8,6 @@ So it's a page-per-person and a 50-state ui dashboard (but as a map, all snazzy,
 As well, some more non-USState pages. FAQ/About, Membership, Contact Us.
 FAQ give me a sample of 3 questions. Make them up, what WOULD someone ask about this. Don't worry I'll replace them. About part, we offer distinguished opinion services to a select clientelle. Other than this, time will tell.
 Membership, will include its cost and requirements, as well as its benefits, so 3 sections to Membership. Requirements are going to be earnings/tax-return statement of 200k or more AGI. Please scrub your SS# please.
+
 Contact us will be a P.O. Box Address and that is IT. Placeholder one in NY
+.

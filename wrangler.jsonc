@@ -9,7 +9,7 @@
   // If you want to deploy a different output (e.g., Vite/CRA build),
   // change this to "client/dist" or "client/build" accordingly.
   "assets": {
-    "directory": "./static-site",
+    "directory": ".",
     "binding": "ASSETS"
   }
 }

@@ -1,0 +1,15 @@
+// Cloudflare Workers config for static asset deployment
+{
+  "name": "bbec-website",
+  "account_id": "45621336c3992122038ebb3c131611d5",
+  "compatibility_date": "2025-09-06",
+  // Entry point to mirror your previous repo's setup
+  "main": "worker.js",
+  // Serve static assets from the dedicated folder (safer than ".")
+  // If you want to deploy a different output (e.g., Vite/CRA build),
+  // change this to "client/dist" or "client/build" accordingly.
+  "assets": {
+    "directory": "./static-site",
+    "binding": "ASSETS"
+  }
+}

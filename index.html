@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>For The Streets — States</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <meta name="description" content="A snazzy 50-state dashboard with person and opinion pages." />
+  </head>
+  <body>
+    <div class="site-wrap">
+      <header class="site-header">
+        <nav class="nav">
+          <div class="brand">For The Streets</div>
+          <a href="./index.html">States</a>
+          <span class="spacer"></span>
+          <a href="./faq.html">FAQ</a>
+          <a href="./about.html">About</a>
+          <a href="./membership.html">Membership</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <h1>Explore the 50 States</h1>
+        <p class="legend">Tap a state tile to view its featured person and their opinion. Alaska and Hawaii are shown below the grid.</p>
+        <div class="tile-map" id="tile-map" aria-label="United States tile map"></div>
+      </main>
+
+      <footer>
+        © <span id="year"></span> For The Streets
+      </footer>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    <script src="assets/us-grid.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+  </html>
+

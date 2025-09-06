@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nevada — For The Streets</title>
+    <link rel="stylesheet" href="../assets/style.css" />
+    <meta name="description" content="Nevada: featured person and opinion." />
+  </head>
+  <body>
+    <div class="site-wrap">
+      <header class="site-header">
+        <nav class="nav">
+          <div class="brand">For The Streets</div>
+          <a href="../index.html">States</a>
+          <span class="spacer"></span>
+          <a href="../about.html#faq">FAQ</a>
+          <a href="../about.html">About</a>
+          <a href="../membership.html">Membership</a>
+          <a href="../contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <h1>Nevada</h1>
+
+        <section class="section person">
+          <div class="avatar" aria-label="Profile image"><span id="avatar-initial">A</span></div>
+          <div>
+            <h2>Person: Emery</h2>
+            <div class="chips" id="zodiac-chips"></div>
+            <p class="muted">Zodiac placements shown as chips (Sun, Moon, Rising).</p>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Opinion</h2>
+          <p class="muted">Every neighborhood deserves a good late-night diner.</p>
+          <div class="reactions" id="reactions" aria-label="Emoji reactions"></div>
+        </section>
+
+      </main>
+
+      <footer>
+        © <span id="year"></span> For The Streets
+      </footer>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    <script>window.STATE = {"abbr":"NV","name":"Nevada","person":{"first":"Emery","zodiac":{"sun":"Capricorn","moon":"Aquarius","rising":"Pisces"}}}</script>
+    <script src="../assets/state.js"></script>
+  </body>
+  </html>

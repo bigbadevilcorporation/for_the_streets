@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tennessee — For The Streets</title>
+    <link rel="stylesheet" href="../assets/style.css" />
+    <meta name="description" content="Tennessee: featured person and opinion." />
+  </head>
+  <body>
+    <div class="site-wrap">
+      <header class="site-header">
+        <nav class="nav">
+          <div class="brand">For The Streets</div>
+          <a href="../index.html">States</a>
+          <span class="spacer"></span>
+          <a href="../about.html#faq">FAQ</a>
+          <a href="../about.html">About</a>
+          <a href="../membership.html">Membership</a>
+          <a href="../contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <h1>Tennessee</h1>
+
+        <section class="section person">
+          <div class="avatar" aria-label="Profile image"><span id="avatar-initial">A</span></div>
+          <div>
+            <h2>Person: Arden</h2>
+            <div class="chips" id="zodiac-chips"></div>
+            <p class="muted">Zodiac placements shown as chips (Sun, Moon, Rising).</p>
+          </div>
+        </section>
+
+        <section class="section">
+          <h2>Opinion</h2>
+          <p class="muted">Public benches should be reclining by default. Comfort matters.</p>
+          <div class="reactions" id="reactions" aria-label="Emoji reactions"></div>
+        </section>
+
+      </main>
+
+      <footer>
+        © <span id="year"></span> For The Streets
+      </footer>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    <script>window.STATE = {"abbr":"TN","name":"Tennessee","person":{"first":"Arden","zodiac":{"sun":"Cancer","moon":"Leo","rising":"Virgo"}}}</script>
+    <script src="../assets/state.js"></script>
+  </body>
+  </html>
